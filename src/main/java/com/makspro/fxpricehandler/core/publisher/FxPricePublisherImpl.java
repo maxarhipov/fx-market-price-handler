@@ -8,6 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * A simple in-memory implementation of FxPricePublisher
+ * Publishes `FxClientPrice` to potential clients, stores the last published price, and provides it upon request.
  */
 public class FxPricePublisherImpl implements FxPricePublisher {
 
